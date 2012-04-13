@@ -2,6 +2,6 @@
 ,"version": "0.1.0"
 ,"author": "@pushmatrix",
 "scripts":{ "start":"coffee server.coffee" }
-,"dependencies": {"node-xmpp": ">=0.3.2", "request": ">=1.2.0"}
+,"dependencies": {"redis": ">=0.7.1", "express": ">=2.2.0"}
 ,"engine": "node >=0.4.0"
 }
