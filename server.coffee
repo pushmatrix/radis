@@ -29,6 +29,7 @@ app.post '/*', (req,res) ->
     console.log req.content
     res.send("ok\n")
 
-app.listen(3000)
+port = process.env.PORT || 3000
+app.listen(port)
 
 console.log('Server running at http://127.0.0.1:1337/')
